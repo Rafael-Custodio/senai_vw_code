@@ -1,0 +1,12 @@
+li{
+    color: yellow;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: 20px;
+}
+input[type="password"]{
+    color: palevioletred;
+}
+video{
+    border-radius: 30px;
+}
