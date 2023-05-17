@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #060821;
+    
+}
+.posicionamento_header{
+display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1400px;
+}

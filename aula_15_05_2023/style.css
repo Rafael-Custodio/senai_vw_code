@@ -1,0 +1,60 @@
+/* Comentários no CSS*/
+
+li {
+    color: yellow;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 20px;
+}
+
+input[type="password"] {
+    color: palevioletred;
+}
+
+video {
+    border-radius: 30px;
+}
+
+.secao {
+    height: 400px;
+    width: 720px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*flex-direction: column;*/
+}
+
+.quadrado {
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    border: solid 2px black;
+   
+
+}
+
+.retangulo{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: red;
+    border: solid 2px black;
+}
+
+.quadrado2{
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    border: solid 2px black
+    ;
+    
+}

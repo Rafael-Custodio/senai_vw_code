@@ -1,0 +1,134 @@
+<!DOCTYPE html><!--Define o tipo de documento que vamos trabalhar-->
+<html lang="pt-br"><!--Definir o idioma-->
+
+<head><!--Configuração da página-->
+    <meta charset="UTF-8"><!--Teclado Latino-Americano-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Compatível com o Internet Explorer (Edge)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Responsividade... Escala da página a ser exibida quando for renderizada... Primeira configuração de responsividade-->
+    <title>HOME - Site Narutin</title><!--Título-->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+
+            background-color: #a7a7a7;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+        .titulo {
+            color: red;
+            font-size: 25px;
+            
+        }
+        .titulo1 {
+            text-decoration: none;
+            font-size: 20px;
+            color: yellow;
+
+        }
+        .titulo1:hover {
+            color: rgb(101, 226, 43);
+            font-size: 25px;
+            background-color: blue;
+
+        }
+        img {
+            width: 50%;
+            height: 50%;
+            border-radius: 30px;
+        }
+        a {
+            font-size: 20px;
+        }
+    </style>
+
+</head><!--Fecha Tag-->
+
+<body><!---->
+    <header>
+        <h1 style="color: red; font-size: 40px;">O BRABO DE KONOHA</h1>
+        <br>
+        <img src="img_naruto.jpg" alt="Imagem Naruto">
+        <br><br><br>
+        <a class="titulo1" href="https://www.youtube.com/watch?v=VvkHL4FrnbE">VÍDEO - NARUTO CHEGANDO EM KONOHA</a>
+    </header>
+    <br>
+    <main><!--Define o conteúdo principal da página-->
+        <section><!---->
+            <div><!---->
+                <h1 class="titulo">JUTSUS DO NARUTO</h1>
+                <h2>Kage Bunshin no Jutsu</h2>
+                <h3>Rasengan</h3>
+                <h4>Kuchiyose no Jutsu</h4>
+                <h5>Rasenshuriken</h5>
+                <h6>Mil anos de morte</h6>
+            </div>
+        </section>
+        <br>
+        <aside><!--Define o conteúdo que é colocado na lateral da página referenciando-->
+            <ul><!--Define uma lista nao ordenada-->
+                <li class="titulo">AMIGOS DO NARUTO</li><!--Itens da lista-->
+                <li>Sasuke</li>
+                <li>Sakura</li>
+                <li>Rock Lee</li>
+                <li>Hinata</li>
+                <li>Gaara</li>
+                <li>Sai</li>
+                <li>Shikamaru</li>
+                <li>Chouji</li>
+                <li>Kiba</li>
+            </ul>
+            <br>
+            <ol><!--Define uma lista ordenada (numerica ou alfabetica)-->
+                <li class="titulo">PROFESSORES DO NARUTO</li>
+                <li>Kakashi</li>
+                <li>Jiraiya</li>
+                <li>Killer B</li>
+                <li>Sapos Eremitas</li>
+                <li>Yamato</li>
+                <li>Iruka</li>
+                <li>Ebisu</li>
+                <li>Asuma</li>
+            </ol>
+        </aside>
+        <br>
+        <p>Fã Lovers, faça seu login abaixo e acesse conteúdos exclusivos.</p>
+        <form><!--Define um formulário na página-->
+            <label for="Nome">Nome:</label>
+            <input type="text">
+
+            <label for="Email">E-mail</label>
+            <input type="email" name="" id="">
+
+            <label for="Senha">Senha:</label>
+            <input type="password" name="Senha" id="">
+
+            <label for="Number">Telefone</label>
+            <input type="number" name="" id="">
+
+            <label for="datetime">Data de Nascimento</label>
+            <input type="date">
+
+            <button>Enviar</button>
+        </form>
+        <br>
+
+        <video width="50%" controls>
+            <source src="Rap dos Hokages - A VONTADE DO FOGO.mp4" type="video/mp4">
+        </video>
+
+        <section class="secao">
+            <div class="quadrado"></div>
+            <div class="quadrado"></div>
+            <div class="retangulo">
+                <div class="quadrado2"></div>
+                <div class="quadrado2"></div>
+                <div class="quadrado2"></div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
