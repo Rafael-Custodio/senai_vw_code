@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --azul: #060821;
+    --rosa: #C12D6D;
+    --branco: #FFFFFF;
+    --font1: 'Righteous', cursive;
+    --font2: 'Titillium Web', sans-serif;
+
+}
+header{
+    background-color: var(--azul);
+}
+.posicionamento_header{
+display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1400px;
+    align-items: center;
+    height: 80px;
+}
+.posicionamento_header img{
+    width: 250px;
+}
+header nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font1);
+    font-size: 18px;
+}
+header a{
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn_login{
+    border: 3px solid var(--rosa);
+    padding: 1px 25px;
+    border-radius: 30%;
+}
+h1{
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    /* overflow: hidden; RETIRA A BARRA DE ROLAGEM DA PÁGINA, CASO SEJA INCLUÍDA POR CAUSA DESTA TAG*/
+}
+.banner{
+    background-image: url(../img/banner-background.png);/*Banner como background*/
+
+}
