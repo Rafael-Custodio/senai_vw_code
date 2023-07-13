@@ -4,7 +4,7 @@ e informe se este número é positivo ou negativo.
 */
 
 let prompt = require ("prompt-sync")()
-let numero = parseInt(prompt("Digite um numero inteiro: "))
+let numero = parseInt(prompt("Digite um numero: "))
 
 console.log("=======================")
 

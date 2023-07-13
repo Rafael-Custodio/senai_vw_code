@@ -17,7 +17,6 @@ if(salario < 500){
     console.log("Com reajuste de 30%, o novo salário é: " + salarioNovo.toFixed(2))
 }else{
     console.log("Funcionário não tem direito a aumento de 30%.")
-    console.log(`Seu salário é de R$ ${salario}.00 e você não tem direito a aumento.`) //interpolação
 }
 console.log("=======================")
 

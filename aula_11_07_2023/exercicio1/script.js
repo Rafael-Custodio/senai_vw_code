@@ -14,14 +14,12 @@ let salarioNovo = parseFloat
 console.log("=======================")
 
 if(salario < 1000){
-    // salarioNovo = salario*1.10
-    salarioNovo = salario + ((salario/100) * 10)
+    salarioNovo = salario*1.10
     console.log("Funcionário: " + nome)
     console.log("Cargo: " + cargo)
     console.log("Novo salário: " + salarioNovo.toFixed(2))
 }else{
-    // console.log("Funcionário: " + nome)
-    console.log(`Funcionário: ${nome}.`)//interpolação = ${nomedavariavel}
+    console.log("Funcionário: " + nome)
     console.log("Cargo: " + cargo)
     console.log("Salário: " + salario)
 }

@@ -12,8 +12,6 @@ console.log("=======================")
 
 if(numero1 > numero2){
     console.log("O PRIMEIRO numero digitado foi " + numero1 + ", e ele é o maior entre os dois.")
-}else if(numero1 == numero2){
-    console.log("Os números digitados são IGUAIS.")
 }else{
     console.log("O SEGUNDO numero digitado foi " + numero2 + ", e ele é o maior entre os dois.")
 }
