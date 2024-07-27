@@ -47,6 +47,7 @@ main {
 
     margin: 0 auto;
     padding: 30px 0;
+    font-fac
 }
 
 section {
@@ -150,7 +151,7 @@ caption, th {
 }
 
 tbody > tr:nth-child(odd) {
-    background-color: #00000020;
+    background-color: #000000;
 }
 
 tr {
